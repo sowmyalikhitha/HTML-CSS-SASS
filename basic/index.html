@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>  <!--root tag-->
+    <head> <!--meta data-->
+        <title>HTML forms</title> <!--title of document, displayed in browser's title bar-->
+    </head>
+    <body>
+       <h1>form</h1>
+       <form>
+        <label for="username">Enter USER NAME</label><br>
+        <input type="text" name="username" id="username"placeholder="username" required><br>
+        <label for="email">Enter EMAIL ID</label><br>
+        <input type="email" name="email" id="email"placeholder="email-id" required><br>
+        <label for="password">Enter PASSWORD</label><br>
+        <input type="password" name="password" id="password"placeholder="password" required><br>
+        <p>Select the age:</p>
+        <input type="radio" name="age" value="0-25" id="option-1">
+        <label for="option-1">0-25</label><br>
+        <input type="radio" name="age" value="0-25" id="option-2">
+        <label for="option-2">26-50</label><br>
+        <input type="radio" name="age" value="51+" id="option-3">
+        <label for="option-3">51+</label><br><br>
+        <label for="q">Security questions : </label>
+        <select name="question" id="q">
+            <option value="q1">What is ur fav color?</option>
+            <option value="q1=2">What is ur fav veggie?</option>
+            <option value="q1">How is ur fav teacher?</option>
+            <option value="q1">What is ur fav fruit?</option>
+        </select>
+            <br><br>
+            <label for="ans">Security question answer:</label>
+            <input type="text" name="answer" id="ans"><br><br>
+            <label for="bio">Your bio:</label><br>
+            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="About you....."></textarea><br><br>
+            <input type="submit"  value="submit">
+       </form>
+    </body> <!--displys in the browser-->
+</html>
